@@ -1,0 +1,73 @@
+
+
+body {
+	background-color:#fae0fc; <!--light pink-->
+}
+
+h1, h2, h3 {
+	color:#4f4e50; <!--grey-->
+	font-family: Arial;
+}
+
+p {
+	font-family: Arial;
+	color:#3b0e61;
+}
+
+figure {
+	font-family: Arial;
+	color:#3b0e61;
+}
+
+ul, il, ol {
+	font-family: Courier New;
+	color:#ffc300;
+	background-color:#581845;
+}
+
+hr {
+	color:#581845;
+}
+
+input {
+	font-family: Helvetica;
+	color:#581845;
+}
+
+fieldset {
+	color:#ff009a;
+
+}
+
+legend {
+	font-family: Arial;
+	font-style: italic;
+}
+
+/*div {
+	border: double black;
+}*/
+
+.top-section {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bottom-section {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.ingredients, .directions {
+  flex: 1;
+}
+
+
